@@ -1,0 +1,51 @@
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Onest', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bolder;
+
+}
+.navname{
+	font-family:"Permanent Marker", cursive;
+	font-style: italic;
+
+}
+.bg-main{
+	background: #113946 ;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Onest', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+.jpimg{
+	height: 300px;
+	width: 300px;
+}
+.bg-maincolor{
+  background: linear-gradient(300deg,#113946 , #EAD7BB,#113946);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+.bi-main{
+	 width: 1em;
+	 height: 1em;
+}
+.custom-text-color{
+	color: #113946;
+}
