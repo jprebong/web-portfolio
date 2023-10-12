@@ -8,6 +8,11 @@
 	font-weight: bolder;
 
 }
+	footer {
+  font-family: 'Your Preferred Font', sans-serif !important;
+  font-size: 16px !important;
+  
+}
 .navname{
 	font-family:"Permanent Marker", cursive;
 	font-style: italic;
@@ -47,5 +52,5 @@
 	 height: 1em;
 }
 .custom-text-color{
-	color: #113946;
+	color: #113946 !important;
 }
