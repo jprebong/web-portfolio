@@ -1,61 +1,68 @@
-
-*{
-	font-family: 'Montserrat', sans-serif;
-	font-family: 'Onest', sans-serif;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-family: 'Roboto Slab', serif;
-	font-family: 'Rubik', sans-serif;
-	font-weight: bolder;
-
-
-}
-	footer {
-  font-family: 'Your Preferred Font', sans-serif !important;
-  font-size: 16px !important;
-  
+html{
+    scroll-behavior: smooth;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url("./images/landingbg.png");
+    background-color: #000;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header h1{
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-style: italic;
 
 }
 
-.navname{
-	font-family:"Permanent Marker", cursive;
-	font-style: italic;
-
-}
-.bg-main{
-	background: #113946 ;
-	font-family: 'Montserrat', sans-serif;
-	font-family: 'Onest', sans-serif;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-family: 'Roboto Slab', serif;
+.header .navbar-nav .nav-item a {
+    color: #F5EDED;
 }
 
-.jpimg{
-	height: 300px;
-	width: 300px;
+.landing-img{
+	width: 500px;
 }
-.bg-maincolor{
-  background: linear-gradient(300deg,#113946 , #EAD7BB,#113946);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+a {
+    color: #F5EDED;
 }
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+
+.navbar-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header h1 {
+    color: #D72323;
+}
+
+.header p{
+	color: #F5EDED;
+}
+
+#projects{
+    height: 100vh;
+    width: 100%;
+}
+
+.container  h2::first-letter{
+    font-size: 2em;
+   color: #D72323 !important;
 
 }
-.bi-main{
-	 width: 1em;
-	 height: 1em;
-}
-.custom-text-color{
-	color: #113946 !important;
+
+.container  h2{
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-style: italic;
 }
