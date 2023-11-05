@@ -23,8 +23,13 @@ font-style: italic;
 
 }
 
-.header .navbar-nav .nav-item a {
-    color: #F5EDED;
+.navbar , #contact{
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+    
 }
 
 .landing-img{
@@ -65,4 +70,18 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-style: italic;
+}
+
+.formbg {
+  
+    border: solid  #D72323;
+ 
+}
+
+.buttonbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url("./images/landingbg.png");
+    color: white;
+    border-radius: 5%;
+    border: solid #D72323;
+    
 }
