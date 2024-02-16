@@ -45,10 +45,28 @@ a {
     margin-right: 10px;
 }
 
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid  #D72323;
+    width: 100%;
+    background-color: #0a0a0afc;
+}
+
+.collapse{
+    margin-right: 150px;
+}
+.navbar-brand{
+    margin-left: 150px;
+}
+
 .header p{
 	color: #F5EDED;
 }
 
+.middle{
+    margin-top: 100px;
+}
 #projects{
     height: 100vh;
     width: 100%;
